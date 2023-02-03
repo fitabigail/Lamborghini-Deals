@@ -108,19 +108,19 @@ $(function () {
                     $('.sticky-header').addClass('header-shrink');
                 }
                 if($('.do-sticky').length < 1) {
-                    $('.company-logo img').attr('src', 'img/logos/black-logo.png');
+                    $('.company-logo img').attr('src', 'https://res.cloudinary.com/dlpvlra1t/image/upload/v1675442516/media%20lamborghini/img/black-logo_b20eto_qqzshy.png');
                 }
             }
             else {
                 $('.sticky-header').removeClass('header-shrink');
                 if($('.do-sticky').length < 1 && $('.fixed-header').length == 0 && $('.fixed-header2').length == 0) {
-                    $('.company-logo img').attr('src', 'img/logos/logo.png');
+                    $('.company-logo img').attr('src', 'https://res.cloudinary.com/dlpvlra1t/image/upload/v1675441884/media%20lamborghini/img/logo_ogjual_egon44.png');
                 } else {
-                    $('.company-logo img').attr('src', 'img/logos/black-logo.png');
+                    $('.company-logo img').attr('src', 'https://res.cloudinary.com/dlpvlra1t/image/upload/v1675442516/media%20lamborghini/img/black-logo_b20eto_qqzshy.png');
                 }
             }
         } else {
-            $('.company-logo img').attr('src', 'img/logos/black-logo.png');
+            $('.company-logo img').attr('src', 'hhttps://res.cloudinary.com/dlpvlra1t/image/upload/v1675441884/media%20lamborghini/img/logo_ogjual_egon44.png');
         }
     }
 
