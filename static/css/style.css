@@ -6068,7 +6068,17 @@ footer {
 
 /** Sub Banner start **/
 .sub-banner {
-    background: rgba(0, 0, 0, 0.04) url(https://res.cloudinary.com/dlpvlra1t/image/upload/v1675448606/media%20lamborghini/img/lamborghini_1_u2cfw9.jpg) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(https://res.cloudinary.com/dlpvlra1t/image/upload/v1675448606/media%20lamborghini/lamborghini_1_u2cfw9.jpg) top left repeat;
+    background-size: cover;
+    height: 560px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.sub-banner-sevice {
+    background: rgba(0, 0, 0, 0.04) url(https://res.cloudinary.com/dlpvlra1t/image/upload/v1675375533/media%20lamborghini/carusel_1_euwlda.jpg) top left repeat;
     background-size: cover;
     height: 560px;
     background-position: center center;
