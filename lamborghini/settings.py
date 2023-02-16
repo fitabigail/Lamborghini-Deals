@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_summernote',
     'lamborghini_deals',
+    'cars_view',
     'cloudinary',
 
 
