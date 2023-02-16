@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django_summernote',
     'lamborghini_deals',
     'cars_view',
+    'django.contrib.humanize',
     'cloudinary',
 
 

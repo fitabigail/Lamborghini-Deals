@@ -1,6 +1,7 @@
 from django.db import models
 from datetime import datetime
 from cloudinary.models import CloudinaryField
+#from django.utils.text import slugify
 
 
 # Create cars model here.
@@ -115,5 +116,9 @@ class Car(models.Model):
 
     def __str__(self):
         return self.car_title
+
+    #def save(self, *args, **kwargs):
+        #self.slug = slugify(self.car_title)
+        #super(Car, self).save(*args, **kwargs)    
 
     
