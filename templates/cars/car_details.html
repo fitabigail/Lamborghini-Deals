@@ -38,7 +38,7 @@
                     <!--Car Image start-->
                     </div>
                     <img src="{{car_post.image.url}}" class="img-fluid" alt="Lamborghini"
-                        style="min-height: 300px; max-width: auto;">
+                        style="min-height: 300px; width: auto;">
                     <div>
 
                     </div>
@@ -170,6 +170,7 @@
                             <li>
                                 <span>County:</span>{{car_post.county}}
                             </li>
+                        </ul>    
                             
                             
                     </div>
@@ -262,25 +263,19 @@
                     <!-- Question start -->
                     <div class="widget question">
                         <h5 class="sidebar-title">Get a Question?</h5>
-                        <ul class="contact-info">
-                            <li>
-                                <i class="flaticon-pin"></i>20/F Green Road, Dhanmondi
-                            </li>
+                        <ul class="contact-info">                            
                             <li>
                                 <i class="flaticon-mail"></i><a
-                                    href="mailto:info@themevessel.com">info@themevessel.com</a>
+                                    href="{% url 'contact' %}">contact@lamborghinideal.com</a>
                             </li>
                             <li>
-                                <i class="flaticon-phone"></i><a href="tel:+0477-85x6-552">+0477 85x6 552</a>
+                                <i class="flaticon-phone"></i><a href="{% url 'contact' %}">+383-87-926-6632</a>
                             </li>
                         </ul>
                         <div class="social-list clearfix">
                             <ul>
-                                <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" class="google-bg"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#" class="rss-bg"><i class="fa fa-rss"></i></a></li>
-                                <li><a href="#" class="linkedin-bg"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.facebook.com/Lamborghini" target="blank" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/Lamborghini?" target="blank" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
                             </ul>
                         </div>
                     </div>

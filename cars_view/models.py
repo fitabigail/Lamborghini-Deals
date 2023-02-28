@@ -1,7 +1,7 @@
 from django.db import models
 from datetime import datetime
 from cloudinary.models import CloudinaryField
-#from django.utils.text import slugify
+# from django.utils.text import slugify
 
 
 # Create cars model here.
@@ -50,7 +50,7 @@ class Car(models.Model):
         year_choice.append((r, r))
 
     model_choices = (
-        ('Aventador', 'Aventador'),        
+        ('Aventador', 'Aventador'),
         ('Huracán', 'Huracán'),
         ('Urus', 'Urus'),
         ('Countach', 'Countach'),
@@ -80,14 +80,13 @@ class Car(models.Model):
 
     transmmision_choices = (
         ('manual', 'manual'),
-        ('automatic', 'automatic'),                
-    )
-
+        ('automatic', 'automatic'),
+        )
     body_choices = (
         ('Luxury Car', 'Luxury Car'),
         ('Limited Series', 'Limited Series'),
-        ('Sports Car', 'Sports Car'),        
-    )
+        ('Sports Car', 'Sports Car'),
+        )
 
     car_title = models.CharField(max_length=250, unique=True)
     slug = models.SlugField(max_length=200, unique=True, blank=True)
@@ -99,26 +98,22 @@ class Car(models.Model):
     body_style = models.CharField(choices=body_choices, max_length=150)
     engine = models.CharField(choices=engine_choices, max_length=10)
     fuel_type = models.CharField(choices=fuel_choices, max_length=10)
-    transmmision = models.CharField(choices=transmmision_choices, max_length=10)
+    transmmision = models.CharField(
+        choices=transmmision_choices, max_length=10)
     miles = models.IntegerField(null=True)
     no_of_owners = models.CharField(max_length=10)
-    description = models.TextField(max_length=1000)    
+    description = models.TextField(max_length=1000)
     created_on = models.DateTimeField(auto_now=True)
     updated_on = models.DateTimeField(auto_now=True)
     status = models.IntegerField(choices=publish_stat, default=0)
 
     class Meta:
-        """
-        Order the listing by recently created items first
-        """
-
+        # Order the listing by recently created items first
         ordering = ["-created_on"]
 
     def __str__(self):
         return self.car_title
 
-    #def save(self, *args, **kwargs):
-        #self.slug = slugify(self.car_title)
-        #super(Car, self).save(*args, **kwargs)    
-
-    
+    # def save(self, *args, **kwargs):
+        # self.slug = slugify(self.car_title)
+        # super(Car, self).save(*args, **kwargs)
