@@ -61,12 +61,17 @@ def search_car(request):
     body_style_search = Car.objects.values_list('body_style', flat=True).distinct()
     transmmision_search = Car.objects.values_list('transmmision', flat=True).distinct()
 
+    
+    # car_search = cars.distinct('model', 'county', 'year','body_style','transmmision')
+    # for car_s in cars:    
+        # if i not in car_search:
+            # car_s.delete()
+
     if 'keyword' in request.GET:
         keyword = request.GET['keyword']
         if keyword:
-            cars = cars.filter(model__icontains=keyword)            
+            cars = cars.filter(model__icontains=keyword)
 
-            
     if 'model' in request.GET:
         model = request.GET['model']
         if model:
