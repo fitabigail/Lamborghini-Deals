@@ -22,4 +22,5 @@ urlpatterns = [
     path('cars_view/', include('cars_view.urls'), name='cars_view'),
     path('user_account/', include('user_account.urls'), name='user_account'),
     path('summernote/', include('django_summernote.urls')),
+    path('social_accounts/', include('allauth.urls')),
 ]

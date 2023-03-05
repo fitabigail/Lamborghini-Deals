@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from cars_view.models import Car
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 
+
 # Create cars view here.
 
 

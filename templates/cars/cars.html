@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% block title %} | Cars Stock {% endblock %}
 {% block content %}
 {% load humanize %}
 <!-- Sub banner start -->
@@ -33,7 +33,7 @@
                                     <div class="price-box">
                                         <span>€ {{car.price | intcomma}}</span>
                                     </div>
-                                    <img class="d-block w-100" src="{{car.image.url}}" alt="car" style="min-height: 270px; max-width: auto;">
+                                    <img class="d-block w-100" src="{{car.image.url}}" alt="car" style="min-height: 250px; max-width: auto;">
                                 </a>
                                
                             </div>
