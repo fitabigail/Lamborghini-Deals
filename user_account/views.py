@@ -55,7 +55,8 @@ def singup(request):
         return render(request, 'accounts/singup.html')
                     
 
-def dashboard(request):
+def dashboard(request):  
+
     return render(request, 'accounts/dashboard.html')
 
 

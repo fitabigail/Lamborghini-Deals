@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'lamborghini_deals',
     'cars_view',
     'user_account',
+    'enquiry_form',
     'django.contrib.humanize',
     'cloudinary',
     'django.contrib.sites',
