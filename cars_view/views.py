@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from cars_view.models import Car
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 
@@ -39,6 +39,7 @@ def cars(request):
             }
     return render(request, 'cars/cars.html', data)
 
+
 # Create car details view.
 
 
@@ -49,6 +50,7 @@ def car_details(request, slug):
         'car_post': car_post,
     }
     return render(request, 'cars/car_details.html', data)
+
 
 # Create car search view.
 
@@ -113,3 +115,7 @@ def search_car(request):
             }
             
     return render(request, 'cars/search.html', data)
+
+
+
+

@@ -3682,7 +3682,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .blog-section {
-    background: rgba(0, 0, 0, 0.04) url(../img/bg-img-6.jpg) top left repeat;
+   /* background: rgba(0, 0, 0, 0.04) url(../img/bg-img-6.jpg) top left repeat;*/
     background-size: cover;
 }
 
@@ -4317,7 +4317,7 @@ footer {
 /** Counters start **/
 .counters {
     padding: 80px 0 50px;
-    background: url(../img/car-6.jpg);
+   /* background: url(../img/car-6.jpg);*/
     z-index: 0;
     background-position: center center;
     background-repeat: no-repeat;
@@ -4357,7 +4357,7 @@ footer {
 /** Counters 2 start **/
 .counters-2 {
     padding: 100px 0 70px;
-    background: url(../img/car-7.jpg);
+   /* background: url(../img/car-7.jpg);*/
     z-index: 0;
     background-position: center center;
     background-repeat: no-repeat;
@@ -4439,20 +4439,20 @@ footer {
 }
 
 .service-section{
-    background: rgba(0, 0, 0, 0.04) url(../img/bg-img-6.jpg) top left repeat;
+   /* background: rgba(0, 0, 0, 0.04) url(../img/bg-img-6.jpg) top left repeat;*/
     background-size: cover;
     width: 100%;
 }
 
 /** Service section 2 start **/
 .service-section-2 {
-    background: rgba(0, 0, 0, 0.04) url(../img/bg-img-6.jpg) top left repeat;
+   /* background: rgba(0, 0, 0, 0.04) url(../img/bg-img-6.jpg) top left repeat;*/
     background-size: cover;
     width: 100%;
     padding: 100px 0 70px;
 }
 .featured-car.content-area{
-    background: rgba(0, 0, 0, 0.04) url(../img/bg-img-6.jpg) top left repeat;
+   /* background: rgba(0, 0, 0, 0.04) url(../img/bg-img-6.jpg) top left repeat;*/
     background-size: cover;
     width: 100%;
     padding: 100px 0 70px;
@@ -4479,7 +4479,7 @@ footer {
 /** Testimonial 2 start **/
 .testimonial-2 {
     opacity: 1;
-    background: rgba(0, 0, 0, 0.04) url(../img/car-10.jpg) top left repeat;
+    /*background: rgba(0, 0, 0, 0.04) url(../img/car-10.jpg) top left repeat;*/
     z-index: 0;
     background-position: center center;
     background-repeat: no-repeat;
@@ -7800,7 +7800,7 @@ table {
     width: 100%;
     height: 100%;
     z-index: 999999;
-    background: url(../img/loader.gif) center no-repeat #fff;
+   /* background: url(../img/loader.gif) center no-repeat #fff;*/
 }
 
 .slider-section .simple-slider {
@@ -8215,7 +8215,8 @@ table {
     .car-box-2 .facilities-list li {
         padding: 3px 10px;
     }
-
+    
+   
     .car-box-2 .detail {
         padding: 0 35px 0 20px;
     }
@@ -8261,7 +8262,7 @@ table {
     .m-hide{
         display: none;
     }
-
+    
     .content-area {
         padding: 80px 0 50px;
     }
@@ -8543,7 +8544,10 @@ table {
         font-size: 35px;
     }
 
-    .d-none-992{
+    /*.d-none-992{
+        display: none;
+    }*/
+    .widget .question{
         display: none;
     }
 
@@ -9778,8 +9782,15 @@ a.nav-link.active{
   color: #fff !important;
 }
 
+/** Dashboard table **/
 
-
+table {
+    counter-reset: tableCount;     
+}
+.counterCell:before {              
+    content: counter(tableCount); 
+    counter-increment: tableCount; 
+}
 
 
 

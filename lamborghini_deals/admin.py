@@ -1,7 +1,8 @@
 from django.contrib import admin
-from .models import Team
+from .models import Team, Contact
 from django_summernote.admin import SummernoteModelAdmin
 from django.utils.html import format_html
+
 
 # Register Team model here.
 
@@ -20,3 +21,16 @@ class TeamAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Team, TeamAdmin)
+
+# Register Contact model here.
+
+
+class ContactAdmin(admin.ModelAdmin):    
+
+    list_display = ('id', 'name', 'email', 'subject', 'created_on')    
+    list_display_links = ('id', 'name', 'email', 'subject',)
+    search_fields = ('name', 'email', 'subject',)
+    list_filter = ('subject',)
+
+
+admin.site.register(Contact, ContactAdmin)

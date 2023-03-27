@@ -7,10 +7,10 @@
 <div class="sub-banner overview-bgi">
     <div class="container breadcrumb-area">
         <div class="breadcrumb-areas">
-            <h1>Contact Us</h1>
+            <h1>Update Enquiry</h1>
             <ul class="breadcrumbs">
                 <li><a href="{% url 'home' %}">Home</a></li>
-                <li class="active">Contact Us</li>
+                <li class="active">Update Enquiry</li>
             </ul>
         </div>
     </div>
@@ -22,17 +22,22 @@
     <div class="container">
         <!-- Main title -->
         <div class="main-title text-center">
-            <h1>Contact <span>Us</span></h1>
+            <h1>Update your enquiry<span> Here</span></h1>
+            
         </div>
-        
-        <form action="" method="POST" enctype="multipart/form-data" novalidate>
+        <form action="#" method="POST" enctype="multipart/form-data">
             {% csrf_token %}
             <div class="row">
                 <div class="col-lg-7">
                     <div class="row">
                         <div class="col-md-6 text-left">
                             <div class="form-group name">
-                                {{form.name}}
+                                {{form.first_name}}
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group name">
+                                {{form.last_name}}
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -41,23 +46,18 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="form-group subject">
-                                {{form.subject}}
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group number">
-                                {{form.phone}}
+                            <div class="form-group name">
+                                {{form.city}}
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-group message">
-                                {{form.message}}
+                                {{form.comment}}
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="send-btn text-center">
-                                <button type="submit" class="btn btn-md button-theme">Send Message</button>
+                                <button type="submit" class="btn btn-md button-theme">Update</button>
                             </div>
                         </div>
                     </div>
@@ -82,13 +82,12 @@
                                 <p><a href="#">contact@lamborghinideal.com</a></p>
                             </div>
                         </div>
-
-
+                        
+                        
                     </div>
                 </div>
             </div>
         </form>
-    
     </div>
 </div>
 <!-- Contact 2 end -->

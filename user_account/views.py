@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages, auth
 from django.contrib.auth.models import User
+from enquiry_form.models import EnquiryForm
 
 
 # Create your views here.
@@ -55,9 +56,13 @@ def singup(request):
         return render(request, 'accounts/singup.html')
                     
 
-def dashboard(request):  
+def dashboard(request): 
+    car_inquiry = EnquiryForm.objects.order_by('-created_on').filter(user_id=request.user.id) 
 
-    return render(request, 'accounts/dashboard.html')
+    data = {
+        'inqueries': car_inquiry,
+    }
+    return render(request, 'accounts/dashboard.html', data)
 
 
 def logout(request):

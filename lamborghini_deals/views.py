@@ -1,9 +1,10 @@
-from django.shortcuts import render
-from .models import Team
+from django.shortcuts import render, redirect
+from .models import Team, Contact
 from cars_view.models import Car
+from .form import ContactForm
 
-# Create views here.
 
+# Home views here.
 
 def home(request):
     teams = Team.objects.all()
@@ -14,14 +15,32 @@ def home(request):
     }
     return render(request, 'pages/home.html', data)
 
+# Cars views here.
+
 
 def cars(request):
     return render(request, 'pages/cars.html')
+
+# Services views here.
 
 
 def services(request):
     return render(request, 'pages/services.html')    
 
+# Contact views here.
+
 
 def contact(request):
-    return render(request, 'pages/contact.html')
+    form = ContactForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+        return redirect('contact')
+   
+    data = {
+        'form': form,
+    }
+
+    return render(request, 'pages/contact.html', data)
+
+
+

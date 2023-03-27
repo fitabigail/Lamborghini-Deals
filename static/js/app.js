@@ -480,6 +480,9 @@ $(function () {
     }).trigger("resize");
 })(jQuery);
 
+// Custom message time out
+
 setTimeout(function(){
     $('#message').fadeOut('slow');
 }, 3000)
+

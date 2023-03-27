@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %} | Services {% endblock %}
+
+{% block content %}
+
+
+
+<!-- Sub banner start -->
+<div class="sub-banner-sevice overview-bgi">
+    <div class="container breadcrumb-area">
+        <div class="breadcrumb-areas">
+            <h1>404</h1>
+            <ul class="breadcrumbs">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li class="active">404</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Sub Banner end -->
+
+<!-- Services start -->
+<div class="services content-area">
+    <div class="container">
+        <!-- Main title -->
+        <div class="main-title text-center">
+            <h1>Error <span>404</span></h1>
+        </div>
+
+        <div class="container">
+            <h2>404</h2>
+            <h3>Oops, nothing here...</h3>
+            <p>Please Check the URL</p>
+            <p>Otherwise, <a href="{% url 'home' %}">Click here</a> to redirect to homepage.</p>
+        </div>
+{% endblock %}        

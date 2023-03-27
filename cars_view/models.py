@@ -1,6 +1,8 @@
 from django.db import models
+from django.urls import reverse 
 from datetime import datetime
 from cloudinary.models import CloudinaryField
+
 # from django.utils.text import slugify
 
 
@@ -114,6 +116,5 @@ class Car(models.Model):
     def __str__(self):
         return self.car_title
 
-    # def save(self, *args, **kwargs):
-        # self.slug = slugify(self.car_title)
-        # super(Car, self).save(*args, **kwargs)
+    def get_absolute_url(self):    
+        return reverse('car_details', kwargs={'slug': self.slug})

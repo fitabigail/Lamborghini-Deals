@@ -32,6 +32,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['lamborghini-deals.herokuapp.com', 'localhost']
 
+EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
+EMAIL_HOST_USER = '944c53776595f7'
+EMAIL_HOST_PASSWORD = 'd03ecc8803d729'
+EMAIL_PORT = '2525'
 
 # Application definition
 
@@ -48,6 +52,9 @@ INSTALLED_APPS = [
     'cars_view',
     'user_account',
     'enquiry_form',
+    'phone_field',
+    'phonenumber_field',
+    'crispy_forms',
     'django.contrib.humanize',
     'cloudinary',
     'django.contrib.sites',
@@ -164,3 +171,7 @@ SITE_ID = 1
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Crispy form
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
