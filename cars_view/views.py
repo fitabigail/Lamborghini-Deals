@@ -7,7 +7,7 @@ from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 
 
 def cars(request):
-    cars = Car.objects.order_by('-created_on')
+    cars = Car.objects.order_by('-created_on')    
 
     model_search = Car.objects.values_list('model', flat=True).distinct()
     county_search = Car.objects.values_list('county', flat=True).distinct()
@@ -35,7 +35,7 @@ def cars(request):
             'county_search': county_search,
             'year_search': year_search,
             'body_style_search': body_style_search,
-            'transmmision_search': transmmision_search,
+            'transmmision_search': transmmision_search,            
             }
     return render(request, 'cars/cars.html', data)
 
@@ -45,9 +45,9 @@ def cars(request):
 
 def car_details(request, slug):
     car_post = get_object_or_404(Car, slug=slug)
-
+    
     data = {
-        'car_post': car_post,
+        'car_post': car_post,        
     }
     return render(request, 'cars/car_details.html', data)
 

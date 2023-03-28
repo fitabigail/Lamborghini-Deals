@@ -28,14 +28,16 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = ['lamborghini-deals.herokuapp.com', 'localhost']
 
-EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
-EMAIL_HOST_USER = '944c53776595f7'
-EMAIL_HOST_PASSWORD = 'd03ecc8803d729'
-EMAIL_PORT = '2525'
+#EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
+#EMAIL_HOST_USER = '944c53776595f7'
+#EMAIL_HOST_PASSWORD = 'd03ecc8803d729'
+#EMAIL_PORT = '2525'
 
 # Application definition
 

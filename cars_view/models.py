@@ -2,6 +2,7 @@ from django.db import models
 from django.urls import reverse 
 from datetime import datetime
 from cloudinary.models import CloudinaryField
+from django.contrib.auth.models import User
 
 # from django.utils.text import slugify
 
@@ -108,7 +109,7 @@ class Car(models.Model):
     created_on = models.DateTimeField(auto_now=True)
     updated_on = models.DateTimeField(auto_now=True)
     status = models.IntegerField(choices=publish_stat, default=0)
-
+    
     class Meta:
         # Order the listing by recently created items first
         ordering = ["-created_on"]
@@ -118,3 +119,6 @@ class Car(models.Model):
 
     def get_absolute_url(self):    
         return reverse('car_details', kwargs={'slug': self.slug})
+
+
+   
