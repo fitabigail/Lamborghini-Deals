@@ -1,108 +1,128 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Project 4
 
-Welcome fitabigail,
+# LamborghiniDeals
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The Project is deployed [here]( https://github.com/fitabigail/Lamborghini-Deals)   
+GitHub repository is [here](https://github.com/fitabigail/Lamborghini-Deals) 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![I am responsive](./readme_img/Iresponsive.jpg)
 
-## Gitpod Reminders
+## TABLE OF CONTENTS
+- [Aim of the website](#aim-of-the-website)
+- [User Experience/User Interface](#user-experience-or-user-interface)
+- [Design](#design)
+- [Features](#features)
+- [Testing](#testing)
+- [Technology](#technology)
+- [Deployment](#deployment) 
+- [Credits](#credits)
+- [Acknowledgement](#acknowledgement)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Aim of the website
+LamborghiniDeals is a website for selling second-hand Lamborghini. The user can quickly search for a specific car model, through the search bar on home page, or by more specific fields on the cars page. Also, the user can navigate on displayed cars, and choose a car post to have more details about. Once a car post is chosen the user can request more information by completing an inquiry form. To request more details about a car the user must be registered on the website. He can see his inquiries on the user dashboard, and update or delete the inquiry.  Options for selling a car are not available at the minute. But this would be a future feature where users can sell as well. 
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## User Experience or User Interface
 
-Another blue button should appear to click: _Open Browser_.
+### Agile
+The plan for this project was carried out using the Agile Methodology in Github. User Stories were created using the issues on the git hub. Each user story explicitly explains the purpose of the issues. Each user story is segmented into acceptance criteria and tasks. It was prioritised using GitHub labels with different colors. The labels are should have, could have and must have. Once the issues are created they are moved to the User Stories kanban board. The Kanban board has three main columns, To Do, In Progress and Done. Once you start working with the user story, you move it to the To Do column and when finished move it to the Done column. Following this pattern of work gives you a full-on idea about the progress of the project.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Epic
 
-A blue button should appear to click: _Make Public_,
+The epics were created using the milistones on github. Each epic was created and related issues were added to it. There are four epics - 
 
-Another blue button should appear to click: _Open Browser_.
+- EPIC : CRUD Functionalities
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    - USER STORY: Inquiry Add [[#13](https://github.com/fitabigail/Lamborghini-Deals/issues/13)]
+    - USER STORY: View Inquiried [[#8](https://github.com/fitabigail/Lamborghini-Deals/issues/8)]
+    - USER STORY: Update my Inquiry[[#10](https://github.com/fitabigail/Lamborghini-Deals/issues/10)]
+    - USER STORY: Delete my Inquiry [[#12](https://github.com/fitabigail/Lamborghini-Deals/issues/12)]
+    
+    
 
-To log into the Heroku toolbelt CLI:
+- EPIC : Register & Login and Logout
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    - USER STORY: Sign up [[#15](https://github.com/fitabigail/Lamborghini-Deals/issues/15)]
+    - USER STORY: Register Account [[#4](https://github.com/fitabigail/Lamborghini-Deals/issues/4)]
+    - USER STORY: Login and Logout [[#16](https://github.com/fitabigail/Lamborghini-Deals/issues/16)]
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+- Epic: Enable user interaction by providing site pagination, search, contact form, see the team 
+    
+    - USER STORY: Search car [[#17](https://github.com/fitabigail/Lamborghini-Deals/issues/17)]
+    - USER STORY: Search car details [[#19](https://github.com/fitabigail/Lamborghini-Deals/issues/19)]
+    - USER STORY: Site Pagination  [[#18](https://github.com/fitabigail/Lamborghini-Deals/issues/18)]
+    - USER STORY: Contact us form [[#14](https://github.com/fitabigail/Lamborghini-Deals/issues/14)]
+    - USER STORY: Team  [[#1](https://github.com/fitabigail/Lamborghini-Deals/issues/1)]
 
-## Release History
+### Product Backlog 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- LamborghiniDeals Product Backlog
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    - USER STORY: Forgot Password  [[#20](https://github.com/fitabigail/Lamborghini-Deals/issues/20)]
+    - USER STORY: Like a post [[#7](https://github.com/fitabigail/Lamborghini-Deals/issues/7)]
+    - USER STORY: Login with Google  [[#22](https://github.com/shahid129/mycar/issues/22)]
+    - USER STORY: Login with Facebook  [[#21](https://github.com/fitabigail/Lamborghini-Deals/issues/21)]
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### User Stories
+**USER STORIES ARE EXPLAINED IN DETAILS IN [Testing](#testing) Section**
+<details><summary>User Story Detailed</summary>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- Site Pagination
+    - As a Site User I can view a paginated list of posts so that I can select the post I want to view. (must have / complete) [[#18](https://github.com/fitabigail/Lamborghini-Deals/issues/18)]
+    
+- Login and Logout 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    - As a Site User, I can log in and Logout from my account so that I can not request details about a car and like a post. (must have / complete) [[#16](https://github.com/fitabigail/Lamborghini-Deals/issues/16)]
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- Search Car Details
+    - As a Site User I can search for the cars I want so that I can click on each car to view car details.(must have / complete) [[#19](https://github.com/fitabigail/Lamborghini-Deals/issues/19)]
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- Search Car
+    - As a Site User, I can search for a specific car so that I can look only for the cars I am interested. (must have / complete) [[#17](https://github.com/fitabigail/Lamborghini-Deals/issues/17)]
+    
+- Sing up 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    - As a Site User, I can sign up for an account so that I can request details about a car and like a post. (must have / complete) [[#15](https://github.com/fitabigail/Lamborghini-Deals/issues/15)]
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- Add Contact us Form
+    - As a Site User/Admin, I can get in touch with the site owner so that I can complete the contact form to send a message.(must have / complete) [[#14](https://github.com/fitabigail/Lamborghini-Deals/issues/14)]
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- Add new inquiry
+    - As a Site User, I can add new inquiries on my dashboard so that I can look for a new car and request details about it.(must have / complete) [[#13](https://github.com/fitabigail/Lamborghini-Deals/issues/13)]
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- Delete Inquiry
+    - As a Site User/Admin, I can delete my inquiry on my dashboard so I can remove the car inquiry in which I am not interested anymore. (must have / complete) [[#12](https://github.com/fitabigail/Lamborghini-Deals/issues/12)]
+    
+- Update Inquiry 
+    - As a Site User, I can edit my inquiry on my dashboard so that I can update the inquiry. (must have / complete) [[#10](https://github.com/fitabigail/Lamborghini-Deals/issues/10)]
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- View Inquiery
+    - As a Site User/Admin, I can view my inquiry on my dashboard so that I can read, update, or delete the inquiry.(must have / complete) [[#9](https://github.com/fitabigail/Lamborghini-Deals/issues/9)]
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+ - View request message
+    - As a Site User / Admin I can view request messages on an individual post so that I can read the request.(duplicate / complete) [[#8](https://github.com/fitabigail/Lamborghini-Deals/issues/8)]
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- View likes
+    - As a Site User / Admin I can view the number of likes on each post so that can see which is the most popular or viral.(should have / complete) [[#7](https://github.com/fitabigail/Lamborghini-Deals/issues/7)]
+    
+- Open a post
 
-------
+    - As a Site User I can click on a post so that I can read the full text. (must have / complete) [[#6](https://github.com/fitabigail/Lamborghini-Deals/issues/6)]
 
-## FAQ about the uptime script
+- View post list
+    - As a Site User I can view a list of posts so that rI can select one to read.(must have / complete) [[#5](https://github.com/fitabigail/Lamborghini-Deals/issues/5)]
 
-**Why have you added this script?**
+- Account registration
+    - As a **Admin** I can **see register account** so that **I can delete if I want**.(must have / complete) [[#7](https://github.com/fitabigail/Lamborghini-Deals/issues/7)]
+    
+- Manage posts
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+    - As a Site Admin I can create, read, update, and delete posts so that ** I can manage my site content**. (must have / complete) [[#3](https://github.com/fitabigail/Lamborghini-Deals/issues/3)]
 
-**How will this affect me?**
+- Add Team mebmber
+    - As an admin I can create, update, and delete a team member's profile so that the user can see the team member profile online.(must have / complete) [[#1](https://github.com/fitabigail/Lamborghini-Deals/issues/1)]  
+</details>      
+   
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
