@@ -2,7 +2,7 @@
 
 # LamborghiniDeals
 
-The Project is deployed [here]( https://github.com/fitabigail/Lamborghini-Deals)   
+The Project is deployed [here](https://lamborghini-deals.herokuapp.com/)   
 GitHub repository is [here](https://github.com/fitabigail/Lamborghini-Deals) 
 
 ![I am responsive](./readme_img/Iresponsive.jpg)
