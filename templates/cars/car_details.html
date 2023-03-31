@@ -24,8 +24,7 @@
             <div class="col-lg-8 col-md-12 col-xs-12">
                 <div class="car-details-section">
                     <!-- Heading start -->
-                    <div class="heading-car clearfix">
-                        {% include 'includes/messages.html' %}
+                    <div class="heading-car clearfix">                        
                         <div class="pull-left">
                             <h3>{{car_post.model}}</h3>
                             <h6>
@@ -65,7 +64,9 @@
 
                         </div>
                     </div>
-  
+                    <div class="nav-item">
+                        <p><strong>Car Sales Contact: <u><a href="{% url 'home' %}" class="link-danger"> {{car_post.team_id.first_name}} {{car_post.team_id.last_name}}</a></u></strong></p>
+                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-12">

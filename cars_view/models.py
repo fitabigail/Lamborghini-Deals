@@ -3,6 +3,7 @@ from django.urls import reverse
 from datetime import datetime
 from cloudinary.models import CloudinaryField
 from django.contrib.auth.models import User
+from lamborghini_deals.models import Team
 
 # from django.utils.text import slugify
 
@@ -109,6 +110,7 @@ class Car(models.Model):
     created_on = models.DateTimeField(auto_now=True)
     updated_on = models.DateTimeField(auto_now=True)
     status = models.IntegerField(choices=publish_stat, default=0)
+    team_id = models.ForeignKey(Team, on_delete=models.PROTECT, blank=True, null=True)
     
     class Meta:
         # Order the listing by recently created items first

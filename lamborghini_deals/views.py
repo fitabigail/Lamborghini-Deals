@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.contrib import messages
 from .models import Team, Contact
 from cars_view.models import Car
 from .form import ContactForm
@@ -33,7 +34,9 @@ def services(request):
 def contact(request):
     form = ContactForm(request.POST or None)
     if form.is_valid():
+        form = form.cleaned_data()
         form.save()
+        messages.success(request, 'Thank for contact us, shortly one of our team member will be in touch with you!')        
         return redirect('contact')
    
     data = {

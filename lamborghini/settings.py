@@ -34,11 +34,6 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = ['lamborghini-deals.herokuapp.com', 'localhost']
 
-#EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
-#EMAIL_HOST_USER = '944c53776595f7'
-#EMAIL_HOST_PASSWORD = 'd03ecc8803d729'
-#EMAIL_PORT = '2525'
-
 # Application definition
 
 INSTALLED_APPS = [
