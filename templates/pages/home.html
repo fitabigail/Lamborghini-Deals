@@ -155,14 +155,14 @@
                 <div class="slick-slide-item">
                     <div class="team-1">
                         <div class="photo">
-                            {% if "placeholder" in team.image.url %}
+                            <!--{% if "placeholder" in team.image.url %}
                             <img src="https://res.cloudinary.com/dlpvlra1t/image/upload/v1674658515/media%20lamborghini/img/avatar/avatar-11_aiioyx.jpg"
                                 alt="team-1" class="img-fluid">
 
                             {% else%}
                             <img src=" {{team.image.url}}" alt="{{ photo.alt }}">
-                            {% endif %}                           
-
+                            {% endif %}  -->                         
+                            <img src=" {{team.image.url}}" alt="{{ photo.alt }}">
                             <div class="social-list clearfix">
                                 <a href="{{team.facebook_link}}" target="_blank" class="facebook-bg"><i
                                         class="fa fa-facebook"></i></a>
