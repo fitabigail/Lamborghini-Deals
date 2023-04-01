@@ -7,7 +7,6 @@ django-allauth==0.52.0
 django-phone-field==1.8.1
 django-phonenumber-field==7.0.2
 django-summernote==0.8.20.0
-fontawesomefree==6.4.0
 gunicorn==20.1.0
 oauthlib==3.2.2
 phonenumberslite==8.13.7
