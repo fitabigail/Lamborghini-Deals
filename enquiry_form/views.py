@@ -11,7 +11,7 @@ def inquiry_car(request):
     if request.method == 'POST':
         slug = request.POST['car_id']        
         user_id = request.POST['user_id']
-        car_title= request.POST['car_title']
+        car_title = request.POST['car_title']
         first_name = request.POST['first_name']
         last_name = request.POST['last_name']
         enquiry_type = request.POST['enquiry_type']       
@@ -27,12 +27,12 @@ def inquiry_car(request):
                 return redirect('dashboard')
 
         inquiry = EnquiryForm(car_id=slug, user_id=user_id, car_title=car_title, first_name=first_name, last_name=last_name,
-        enquiry_type=enquiry_type, city=city,
-        email=email, comment=comment)
+                              enquiry_type=enquiry_type, city=city,
+                              email=email, comment=comment)
 
         inquiry.save()
         messages.success(request, 'Thank you for message,'
-        ' one of our team member will contact you shortly!')       
+                         ' one of our team member will contact you shortly!')       
         return redirect('dashboard')
         
         

@@ -121,6 +121,3 @@ class Car(models.Model):
 
     def get_absolute_url(self):    
         return reverse('car_details', kwargs={'slug': self.slug})
-
-
-   

@@ -19,10 +19,15 @@ class ContactForm(ModelForm):
         }
 
         widgets = {
-            'name': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Full Name'}),
-            'email': forms.EmailInput(attrs={'class': 'form-control', 'placeholder':'Email'}),
-            'subject': forms.TextInput(attrs={'class': 'form-control', 'placeholder':'Subject'}),
-            'phone': forms.TextInput(attrs={'class': 'form-control', 'placeholder':'Phone :ex. +12345678901'}),
-            'message': forms.Textarea(attrs={'class': 'form-control', 'placeholder':'Write message'}),
+            'name': forms.TextInput(attrs={'class': 'form-control',
+                                           'placeholder': 'Full Name'}),
+            'email': forms.EmailInput(attrs={'class': 'form-control', 
+                                             'placeholder': 'Email'}),
+            'subject': forms.TextInput(attrs={'class': 'form-control',
+                                              'placeholder': 'Subject'}),
+            'phone': forms.TextInput(attrs={'class': 'form-control',
+                                            'placeholder': 'Phone :ex. +12345678901'}),
+            'message': forms.Textarea(attrs={'class': 'form-control',
+                                             'placeholder': 'Write message'}),
             
         }

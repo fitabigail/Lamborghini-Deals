@@ -1,3 +1,5 @@
+<!--This HTML code was copied and ajusted to my project needs from Car House bootstrap template delivered by Rathan Kumar
+Full Stack Software Developer on Udemy Course https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers/-->
 {% load static %}
 
 <!-- Main header start -->
@@ -74,7 +76,7 @@
                         </form>
                     </li>
                     {% else %}
-                    <li class="nav-item dropdown  d-lg-none" id="dash-menudrop">
+                    <li class="nav-item dropdown  d-lg-none">
                         <a {% if 'login' in request.path %}
                         class="nav-link active"
                         {% else %}
@@ -82,13 +84,13 @@
                         {% endif %}
                         href="{% url 'login' %}" class="sign-in"><i class="fa fa-sign-in"></i> Login</a>
                     </li>
-                    <li class="nav-item dropdown d-lg-none " id="dash-menudrop">
+                    <li class="nav-item dropdown d-lg-none">
                         <a {% if 'singup' in request.path %}
                         class="nav-link active"
                         {% else %}
                         class = "nav-link"
                         {% endif %}
-                        <a href="{% url 'singup' %}" class="sign-in"><i class="fa fa-user"></i> Sing Up</a>
+                        href="{% url 'singup' %}" class="sign-in"><i class="fa fa-user"></i> Sing Up</a>
                     </li>
                     {% endif %}
                     <li class="nav-item dropdown m-hide">

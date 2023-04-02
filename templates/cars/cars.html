@@ -1,3 +1,6 @@
+<!--This HTML code was copied and ajusted to my project needs from Car House bootstrap template delivered by Rathan Kumar
+Full Stack Software Developer on Udemy Course https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers/-->
+
 {% extends 'base.html' %}
 {% block title %} | Cars Stock {% endblock %}
 {% block content %}
@@ -33,7 +36,7 @@
                                     <div class="price-box">
                                         <span>€ {{car.price | intcomma}}</span>
                                     </div>
-                                    <img class="d-block w-100" src="{{car.image.url}}" alt="car" style="min-height: 250px; max-width: auto;">
+                                    <img class="d-block w-100" src="{{car.image.url}}" alt="car" style="min-height: 250px;">
                                 </a>
                                
                             </div>
@@ -43,7 +46,7 @@
                                 </h1>
                                 <div class="location">
                                     <a href="{% url 'car_details' car.slug %}">
-                                        <i class="flaticon-pin"></i>{{car.county}},
+                                        <i class="fa fa-map-marker" aria-hidden="true">  {{car.county}}</i>
                                     </a>
                                 </div>
                                 <ul class="facilities-list clearfix">

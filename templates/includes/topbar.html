@@ -1,3 +1,6 @@
+<!--This HTML code was copied and ajusted to my project needs from Car House bootstrap template delivered by Rathan Kumar
+Full Stack Software Developer on Udemy Course https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers/-->
+
 <!-- Top header start -->
 <header class="top-header th-2 top-header-bg">
     <div class="container">
@@ -20,8 +23,8 @@
                         <a href="{% url 'dashboard' %}" class="sign-in"><i class="fa fa-tachometer"></i> Dashboard</a>
                     </li> 
                     <li>
-                        <a href="javascript:{document.getElementById('logout').submit()}" class="sign-out"><i class="fa-solid fa-right-from-bracket"></i> Logout</i></a>
-                        <form action="{% url 'logout' %}" method="POST" id="logout">
+                        <a href="javascript:{document.getElementById('logout').submit()}" class="sign-out"><i class="fa fa-sign-out"></i> Logout</a>
+                        <form action="{% url 'logout' %}" method="POST">
                             {% csrf_token %}
                             <input type="hidden">
                         </form>

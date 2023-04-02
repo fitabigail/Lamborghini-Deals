@@ -1,3 +1,6 @@
+//This CSS code was copied and ajusted to my project needs from Rathan Kumar
+//Full Stack Software Developer on Udemy Course https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers/ 
+
 $(function () {
 
     'use strict';
@@ -158,7 +161,7 @@ $(function () {
         }
 
         //Variables on page load
-        var $myCarousel = $('#carousel-example-generic')
+        var $myCarousel = $('#carousel-example-generic');
         var $firstAnimatingElems = $myCarousel.find('.item:first').find("[data-animation ^= 'animated']");
         //Initialize carousel
         $myCarousel.carousel();
@@ -331,9 +334,7 @@ $(function () {
         }
     });
 
-    var videoWidth = $('.sidebar-widget').width();
-    var videoHeight = videoWidth * .61;
-    $('.sidebar-widget iframe').css('height', videoHeight);
+   
 
 
     // Megamenu activation
@@ -476,5 +477,5 @@ $(function () {
 
 setTimeout(function(){
     $('#message').fadeOut('slow');
-}, 3000)
+}, 3000);
 

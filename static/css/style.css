@@ -1,3 +1,6 @@
+/* This CSS code was copied and ajusted to my project needs from Rathan Kumar
+Full Stack Software Developer on Udemy Course https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers/ */
+
 html, body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -922,8 +925,7 @@ input[type=checkbox]:checked + label:before {
 .item-bg {
     
     height: 100vh;
-    /*animation: bgburnsEast 25s linear infinite alternate;
-    -webkit-animation: bgburnsEast 25s linear infinite alternate;*/
+    
 }
 
 .banner-min-height {
@@ -1099,10 +1101,7 @@ input[type=checkbox]:checked + label:before {
     color: #fff;
 }
 
-.pattern-overlay {
-    /*background-color: rgba(0, 0, 0, 0.35);
-    height: 100vh;*/
-}
+
 
 .banner_video_bg .carousel-item {
     height: 100vh;
@@ -6074,18 +6073,7 @@ footer {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-/*
-.sub-banner-sevice {
-    background: rgba(0, 0, 0, 0.04) url(https://res.cloudinary.com/dlpvlra1t/image/upload/v1675375533/media%20lamborghini/carusel_1_euwlda.jpg) top left repeat;
-    background-size: cover;
-    height: 560px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-*/
+
 .sub-banner .breadcrumb-area {
     letter-spacing: 1px;
     position: absolute;
@@ -6371,7 +6359,6 @@ footer {
 
 .heading {
     margin: 0 0 30px;
-    /* font-size: 20px; */
     font-weight: 600;
 }
 
@@ -8115,11 +8102,7 @@ table {
     }
 }
 
-@media all and (min-width: 992px) {
-    .banner img {
-        /*animation: bgburnsEast 25s linear infinite alternate;
-        -webkit-animation: bgburnsEast 25s linear infinite alternate;*/
-    }
+@media all and (min-width: 992px) {    
 
     .dropdown:hover > .dropdown-menu {
         display: block;
@@ -8260,6 +8243,11 @@ table {
     .m-hide{
         display: none;
     }
+    .banner{
+        display: none;
+       
+    }
+    
     
     .content-area {
         padding: 80px 0 50px;
@@ -8542,9 +8530,7 @@ table {
         font-size: 35px;
     }
 
-    /*.d-none-992{
-        display: none;
-    }*/
+    
     .widget .question{
         display: none;
     }
@@ -8668,10 +8654,7 @@ table {
         margin-bottom: 45px;
     }
 
-    .banner .carousel-content.banner-info {
-        /*top: 27%;*/
-    }
-
+    
     .inline-search-area .btn-search{
         height: 45px;
         line-height: 45px;
@@ -9221,7 +9204,7 @@ table {
     }
 
     .banner .carousel-content.banner-info {
-        /*top: 33%;*/
+       
         text-align: center;
     }
 
@@ -9686,10 +9669,7 @@ table {
         display: none;
     }
 
-    /*.none-580{
-        display: none;
-    }*/
-
+    
     .banner-car-box .meta ul li i {
         margin-right: 5px;
     }

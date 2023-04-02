@@ -1,8 +1,8 @@
+<!--This HTML code was copied and ajusted to my project needs from Car House bootstrap template delivered by Rathan Kumar
+Full Stack Software Developer on Udemy Course https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers/-->
+
 {% extends 'base.html' %}
-
 {% block content %}
-
-
 
 
 <!--Sub Banner start here-->
@@ -32,9 +32,8 @@
                     </div>
                     <h3>Sign into your account</h3>
                     {% include 'includes/messages.html' %}
-                    <form action="{% url 'login' %}" method="POST">                        
+                    <form action="{% url 'login' %}" method="POST">
                         {% csrf_token %}
-                        
                         <div class="form-group form-box">
                             <input type="text" name="username" class="input-text" placeholder="Username" required>
                             <i class="fa fa-user"></i>

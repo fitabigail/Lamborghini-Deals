@@ -14,8 +14,10 @@ class TeamAdmin(admin.ModelAdmin):
 
     image_tag.short_description = 'Image'
 
-    list_display = ('id', 'image_tag', 'first_name', 'last_name', 'position_name', 'created_on',)    
-    list_display_links = ('id', 'image_tag', 'first_name', 'last_name', 'position_name',)
+    list_display = ('id', 'image_tag', 'first_name', 'last_name',
+                    'position_name', 'created_on',)    
+    list_display_links = ('id', 'image_tag', 'first_name',
+                          'last_name', 'position_name',)
     search_fields = ('first_name', 'last_name', 'position_name',)
     list_filter = ('position_name',)
 

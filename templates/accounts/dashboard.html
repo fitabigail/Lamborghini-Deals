@@ -1,3 +1,6 @@
+<!--This HTML code was copied and ajusted to my project needs from Car House bootstrap template delivered by Rathan Kumar
+Full Stack Software Developer on Udemy Course https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers/-->
+
 {% extends 'base.html' %}
 {% block title %} | Dashboard {% endblock %}
 {% block content %}
@@ -59,7 +62,7 @@
 	</table>
 
 	{% else %}
-	<h4>You have no inquiery</h4>
+	<h4>You have no inquiery. If you want to review you inquiry please register <strong><a href="{% url 'singup' %}" class="btn btn-outline-dark" >Here.</a></strong></h4>
 	{% endif %}
 </div>
 

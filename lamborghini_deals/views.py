@@ -36,7 +36,8 @@ def contact(request):
     if form.is_valid():
         form = form.cleaned_data()
         form.save()
-        messages.success(request, 'Thank for contact us, shortly one of our team member will be in touch with you!')        
+        messages.success(request, 'Thank for contact us, shortly one of our team member will be in touch with you!')
+               
         return redirect('contact')
    
     data = {
