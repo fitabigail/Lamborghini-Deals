@@ -971,7 +971,7 @@ This project was use Heroku service for deployment. The folowing steps have to b
 
 > ## Credits
 
-The idea of a car dealer website came from my littel boy which loves Lamborghini cars. On my search I found this tutorial: [Build Python Django Real Project](https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers) on [Udemy](https://www.udemy.com/) and I decide to follow and adapt to my needs. The template is great, but now I think I worked more than I was builded my self. Now I understand the work of tutors who must digg in on our code to find the errors.
+The idea of a car dealer website came from my littel boy which loves Lamborghini cars. On my research I found this tutorial: [Build Python Django Real Project](https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers) on [Udemy](https://www.udemy.com/) and I decide to follow and adapt it to my needs. The template is great, but now I think I worked more than if I was build my self. Now I understand the work of tutors who must dig  on our code to find the errors.
 
 - The images for this project was taken from [Pexels](https://www.pexels.com/) for teamIused the template images.
 
@@ -1000,7 +1000,7 @@ I want to express my gratitude to tutors from student tutor, and my mentor Ronan
 
 ### Thank You
 
-I want to express my gratitude to my husbant in particular for patience and support to finish the projects and the course.
+I want to express my gratitude to my husbant in particular for patience and support to finish the projects.
 
 
 
