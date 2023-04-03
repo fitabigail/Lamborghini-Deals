@@ -151,7 +151,7 @@ The epics were created using the milistones on github. Each epic was created and
 ---
 </br></br>
 
-The main purpose of the template choosed is to be build an website suitable for a car dealer easy to be remembered. LamorghiniDeal is built with the Bootstrap 5 framework (version: v4.0.0) has some jQuery plugin to give a nice look and functionality. The template use Google Font: **Open Sans** and **Pla yfair Display**, Font Awesome Icon to make the template. Red skin colors  **#dc141d** and **#f0151f**. You must have to keep all these dependencies if you wish the template work same to you as preview.
+The main purpose of the template choosed is to be build an website suitable for a car dealer easy to be remembered. LamorghiniDeal is built with the Bootstrap 5 framework (version: v4.0.0) has some jQuery plugin to give a nice look and functionality. The template use Google Font: **Open Sans** and **Playfair Display**, Font Awesome Icon to make the template. Red skin colors  **#dc141d** and **#f0151f**. You must have to keep all these dependencies if you wish the template work same to you as preview.
 <details>
 Animate CSS
 Google Fonts
@@ -176,7 +176,7 @@ Font Awesome
 > ## Features
 ---
 The main objective of this project was to allow the users to have CRUD functionalities. The user can create an account where all his inquiries for individual car can be seen and not only they can update and delete any inquiry made by them. In addition the users have the option to search for the cars they are interested by main search bar and the search module which includes more searching options. The main pages of the website are Home, Cars, Services, Contact Us, Login, Singnup and registered user Dashboard.
-Template of website is a boostrap template  [Carhouse](https://themeforest.net/item/car-house-car-dealer-template/17628233) customized for the website purpose.
+Template of website is a boostrap template  [Carhouse](https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers) customized for the website purpose.
 </br></br>
 <details>
 </br></br>
@@ -913,7 +913,6 @@ Documentation for [here](https://docs.djangoproject.com/en/4.1/intro/)
 - [Draw.io](https://app.diagrams.net/)- for flowchart and database
 - [Fontawesome](https://fontawesome.com/) - for icons
 - [Favicon](https://favicon.io/) - to create the favicon
-- [Balsamic](https://balsamiq.com/) - to create the wireframes
 - [Compressor](https://compressor.io/) - to compress the image
 - [W3C Markup Validation Service](https://validator.w3.org/) - to validate html
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - to validate css
