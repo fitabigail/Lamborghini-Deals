@@ -175,7 +175,7 @@ Font Awesome
 
 > ## Features
 ---
-The main objective of this project was to allow the users to have CRUD functionalities. The user can create an account where all his inquiries for individual car can be seen and not only they can update and delete any inquiry made by them. In addition the users have the option to search for the cars they are interested by main search bar and the search module which includes more searching options. The main pages of the website are Home, Cars, Services, Contact Us, Login, Singnup and registered user Dashboard.
+The main objective of this project was to allow the users to have CRUD functionalities. The user can create an account where all his inquiries for individual car can be seen and not only they can update and delete any inquiry made by them. In addition the users have the option to search for the cars they are interested by main search bar and the search module which includes more searching options. The main pages of the website are Home, Cars, Services, Contact Us, Login, Singnup and registered user Dashboard. The admin pannel was customized with company logo.
 Template of website is a boostrap template  [Carhouse](https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers) customized for the website purpose.
 </br></br>
 <details>
