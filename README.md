@@ -1,6 +1,6 @@
 ## Project 4
 
-# LamborghiniDeals
+# LamborghiniDeal
 
 The Project is deployed [here](https://lamborghini-deals.herokuapp.com/)   
 GitHub repository is [here](https://github.com/fitabigail/Lamborghini-Deals) 
@@ -26,19 +26,20 @@ GitHub repository is [here](https://github.com/fitabigail/Lamborghini-Deals)
 
 > ## Aim of the website
 ---
-LamborghiniDeals is a website for selling second-hand Lamborghini. The user can quickly search for a specific car model, through the search bar on home page, or by more specific fields on the cars page. Also, the user can navigate on displayed cars, and choose a car post to have more details about. Once a car post is chosen the user can request more information by completing an inquiry form. To request more details about a car the user must be registered on the website. He can see his inquiries on the user dashboard, and update or delete the inquiry.  Options for selling a car are not available at the minute. But this would be a future feature where users can sell as well. 
+LamborghiniDeal is a website for selling second-hand Lamborghini. The user can quickly search for a specific car model, through the search bar on home page, or by more specific fields on the cars page. Also, the user can navigate on displayed cars, and choose a car post to have more details about. Once a car post is chosen the user can request more information by completing an inquiry form. To request more details about a car the user must be registered on the website. He can see his inquiries on the user dashboard, and update or delete the inquiry.  Options for selling a car are not available at the minute. But this would be a future feature where users can sell as well. </br></br>
 
 
 > ## User Experience or User Interface
 ---
+</br></br>
 
 ### Agile
-The plan for this project was carried out using the Agile Methodology in Github. User Stories were created using the issues on the git hub. Each user story explicitly explains the purpose of the issues. Each user story is segmented into acceptance criteria and tasks. It was prioritised using GitHub labels with different colors. The labels are should have, could have and must have. Once the issues are created they are moved to the User Stories kanban board. The Kanban board has three main columns, To Do, In Progress and Done. Once you start working with the user story, you move it to the To Do column and when finished move it to the Done column. Following this pattern of work gives you a full-on idea about the progress of the project.
+The plan for this project was carried out using the Agile Methodology in Github. User Stories were created using the issues on the git hub. Each user story explicitly explains the purpose of the issues. Each user story is segmented into acceptance criteria and tasks. It was prioritised using GitHub labels with different colors. The labels are should have, could have and must have. Once the issues are created they are moved to the User Stories kanban board. The Kanban board has three main columns, To Do, In Progress and Done. Once you start working with the user story, you move it to the To Do column and when finished move it to the Done column. Following this pattern of work gives you a full-on idea about the progress of the project.</br></br>
 
 
 
 ### Epic
-
+</br></br>
 The epics were created using the milistones on github. Each epic was created and related issues were added to it. There are four epics - 
 
 - EPIC : CRUD Functionalities
@@ -78,7 +79,7 @@ The epics were created using the milistones on github. Each epic was created and
 ### User Stories
 
 <details><summary>User Story Detailed</summary>
-
+</br></br>
 - Site Pagination
     - As a **Site User** I can view a paginated list of posts so that **I can select the post I want to view**. (must have / complete) [[#18](https://github.com/fitabigail/Lamborghini-Deals/issues/18)]
     
@@ -135,9 +136,7 @@ The epics were created using the milistones on github. Each epic was created and
     - As an **Admin** I can create, update, and delete a team member's profile so that the user **can see the team member profile online**.(must have / complete) [[#1](https://github.com/fitabigail/Lamborghini-Deals/issues/1)]  
 </details>      
    
-
-</br>
-</br> 
+</br></br> 
 
 > ## Flowchart
 ---
@@ -146,11 +145,33 @@ The epics were created using the milistones on github. Each epic was created and
 ![Flowchart](./readme_img/flow-chart.png)
 
 </details>
-</br>
-</br>
+</br></br>
 
 > ## Design
+---
+</br></br>
 
+The main purpose of the template choosed is to be build an website suitable for a car dealer easy to be remembered. LamorghiniDeal is built with the Bootstrap 5 framework (version: v4.0.0) has some jQuery plugin to give a nice look and functionality. The template use Google Font: **Open Sans** and **Pla yfair Display**, Font Awesome Icon to make the template. Red skin colors  **#dc141d** and **#f0151f**. You must have to keep all these dependencies if you wish the template work same to you as preview.
+<details>
+Animate CSS
+Google Fonts
+Jquery
+Query Plugins
+Bootstrap Select
+Bootstrap Sub-menu
+jQuery ScrollUp
+jQuery mCustomScrollbar
+jQuery Range Slider
+jQuery YTPlayer
+jQuery Easing
+jQuery Filterizr
+jQuery Dropzone
+jQuery Magnific Popup
+jQuery Leaflet
+jQuery Types.js
+Font Awesome
+</details>
+</br></br>
 
 > ## Features
 ---
@@ -158,6 +179,7 @@ The main objective of this project was to allow the users to have CRUD functiona
 Template of website is a boostrap template  [Carhouse](https://themeforest.net/item/car-house-car-dealer-template/17628233) customized for the website purpose.
 </br></br>
 <details>
+</br></br>
 
 * ## Top bar
 The top bar includes contact information and links to Login / Sing Up when the user is not logged in and Dashboard / Logout. The topbar on big screens desktops and laptops on scrolling down the page are hidden, and for smaller devices is not displayed. The top bar is repeating on all the pages.
@@ -455,7 +477,7 @@ The website offers the basics for searching and buying a car. For future I think
 
 > ## Database
 ---
-</br>
+</br></br>
 
 * ### Data Model and Database Host
 </br>
@@ -481,8 +503,7 @@ There are four data models in this project. Car Model, EnquiryForm Model, Contac
    </li>
    </ol>
    </details>
-</br>
-</br>
+</br></br>
 
 
 > ## Testing
@@ -548,11 +569,11 @@ There are four data models in this project. Car Model, EnquiryForm Model, Contac
 |Car item| Load Car Details| Pass|
 |Page no and arows| Flip between pages| Pass|
 |Search by model| Show model| Pass|
-|Search by location| Shows cars on same location| Fail|
+|Search by location| Shows cars on same location| Pass|
 |Search model by year| Shows cars on same year| Pass|
-|Search model by body style| Shows cars on same body style| Fail|
-|Search model by transmision| Shows cars on same transmision| Fail|
-|Search model by price| Shows cars on same price| Fail|
+|Search model by body style| Shows cars on same body style| Pass|
+|Search model by transmision| Shows cars on same transmision| Pass|
+|Search model by price| Shows cars on same price| Pass|
 |Social links| Open new social page| Pass|
 
 </br>
@@ -647,9 +668,44 @@ There are four data models in this project. Car Model, EnquiryForm Model, Contac
 |---	|---	|---	|
 |All messages|Display on designated place| Pass|
 |Javascript for messages| Messages fadeout| Fail|
+</br></br>
+
+## **BUGS**
+</br></br>
+### Fixed bugs
+
+- The home page banner was not responsive I fixed the issue with .img-fluid bootstrap class, and on small screens  than 992px will display:none.
+- The server was give me error 500 as fonts was not supported on static folder. So I delete the fonts folder, and I linked a cdn link for Fontawsome on the head.
+- The table on dashboard was not show he numbers of inquiries I fixed by adding css style for content counter.
+- The table was not responsive I fixed with .table-responsive bootstrap class.
+
+</br></br>
+### Not Fixed bugs
+
+So far I have knwoldge of this bugs:
+- The search fields shows duplicate options.
+- The contact form it is not working properly. If the same code is written again and refresh the page the contact form is working properly an a contact form is registred on contact model on admin page. I did research, ask student support but at this stage I can  not figured out what can cause this issue.
+- Messages should fade out but their are not removed until the page refresh. Was worked at begain but not anymore.
+- The template of page 404 is on top of django. 
 
 
+</br></br>
+
+![Contact Form sent](./readme_img/contact-fill-success.png)
+![Email user testt](./readme_img/email_user_test.jpg)
+![Invalid Login](./readme_img/invalid_loggin.jpg)
+![Login](./readme_img/login.png)
+![Password](./readme_img/password_test.jpg)
+![Password no match](./readme_img/pasword_no_match.png)
+![Dashboard](./readme_img/regu-dash-error.png)
+![Delete inquiry](./readme_img/delete-inquiri.png)
+![Admin panel](./readme_img/admin-panel.png)
+![Contact form admin](./readme_img/contact-admin.png)
+![Inquiry Form admin](./readme_img/inquery.png)
+![Users list admin](./readme_img/user-admin.png)
+</br></br>
 </details>
+
 </br></br>
 
 > ## Validation
@@ -776,8 +832,8 @@ Python has  lines mark as too long  white space trail but because I was under ti
 ---
 
 
-</br>
-The lighthouse score had come a bit low, it is pointing out of the image formats, that have not been set for the web, about the bootstraps cdn, compression and reduce amount of the unneccesary code, since this was one of the last steps done in the project I have not had the time for look for guidance on this matter, but it will be address in the future.</br>
+</br></br>
+The lighthouse score had come a bit low, it is pointing out of the image formats, that have not been set for the web, about the bootstraps cdn, compression and reduce amount of the unneccesary code, since this was one of the last steps done in the project I have not had the time for look for guidance on this matter, but it will be address in the future.</br></br>
 <details>
 
 ### Home
@@ -812,14 +868,136 @@ The lighthouse score had come a bit low, it is pointing out of the image formats
 ![Car Details LightHouse Desk](./readme_img/lighthouse-car-det-desk.png)
 ![Car Details LightHouse Mob](./readme_img/lighthouse-car-det-mobile.png)
 </details>
+</br></br>
+
+> ## Technologies Used
+
+</br></br>
+<details>
+
+### Languages
+
+- [HTML](https://html.com/)
+
+- [CSS](https://www.w3.org/Style/CSS/)
+
+- [Python](https://www.python.org/)
+
+- [JavaScript](https://www.javascript.com/)
+</br></br>
+
+## Frameworks and Libraries
+
+- [Django](https://www.djangoproject.com/)
+Documentation for [here](https://docs.djangoproject.com/en/4.1/intro/)
+
+- [Summernote](https://summernote.org/) 
+
+- [Jquery](https://jquery.com/) 
+
+- [Boostrap](https://getbootstrap.com/)
+
+- [Gunicorn](https://gunicorn.org/)
+
+- [Cloudinary](https://cloudinary.com/) 
+
+- [psycopg2](https://www.psycopg.org/docs/)
+</br></br>
+
+### Other Technologies
+
+- [Gitpod](https://www.gitpod.io/) - as the IDE
+- [Github](https://github.com/) - to store code in the repository
+- [Heroku](https://www.heroku.com/) - to deploy on a cloud based platform
+- [Google Fonts](https://fonts.google.com/)- for the fonts
+- [Draw.io](https://app.diagrams.net/)- for flowchart and database
+- [Fontawesome](https://fontawesome.com/) - for icons
+- [Favicon](https://favicon.io/) - to create the favicon
+- [Balsamic](https://balsamiq.com/) - to create the wireframes
+- [Compressor](https://compressor.io/) - to compress the image
+- [W3C Markup Validation Service](https://validator.w3.org/) - to validate html
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - to validate css
+- [PEP8](https://peps.python.org/pep-0008/) - to validate python code
+</br></br>
+
+</details>
+</br></br>
+
+> ## Deployment
+---
+</br></br>
+This project was use Heroku service for deployment. The folowing steps have to be done:
+</br></br>
+<details>
+<ol>
+<li>Log in Github.</li>
+<li>Open the repo to deploy.</li>
+<li>Log in Heroku.</li>
+<li>Click in the "New" button in the top right.</li>
+<li>Select "Create New App"</li>
+<li>Give a name to the App and choose a region.</li>
+<li>Click in "Create App" button.</li>
+<li>Click in Settings.</li>
+<li>Click in Reveal Config.</li>
+<li>Add Vars Config (keys):</li>
+<ol>
+<li>Cloudinary (Media Storage)</li>
+<li>DataBase Elephant (DataBase Host)</li>
+<li>PORT 8000</li></ol>
+<li>Django (Framework)</li>
+<ol>
+<li>Go to Deploy in the nav bar. In Deploment Method, select GitHub/Connect to GitHub.</li>
+<li>In Connect to GitHub, write the repository name and click in search.</li>
+<li>Once the route for the repo appears under the search, click in "Connect" button.</li>
+<li>The deployment can be Manual or Automatic, select the one of your preference. Automatic has the advantage of updating your deployed site as you push the commit in GitHub.</li>
+<li>Verify that "Branch to deploy" is master/main.</li>
+<li>Click Deploy.</li>
+</ol>
+</ol>
+</br></br>
+
+**Steps to use this repository**:
+
+- Access to the repo in GitHub [here](https://github.com/fitabigail/Lamborghini-Deals).
+- It can be "Fork" following the steps [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+- It can be "Clone" following the steps [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository).
+
+</details>
+</br></br>
 
 
+> ## Credits
+
+The idea of a car dealer website came from my littel boy which loves Lamborghini cars. On my search I found this tutorial: [Build Python Django Real Project](https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers) on [Udemy](https://www.udemy.com/) and I decide to follow and adapt to my needs. The template is great, but now I think I worked more than I was builded my self. Now I understand the work of tutors who must digg in on our code to find the errors.
+
+- The images for this project was taken from [Pexels](https://www.pexels.com/) for teamIused the template images.
+
+- The Favicon for this project was made from [Favicon](https://favicon.io/favicon-generator/)
+
+- The Icons for this project was taken from [Font Awesome](https://fontawesome.com/)
+
+- The Font for this project was taken from [Google Fonts](https://fonts.google.com/)
+
+- Image was compressed by [compressor](https://compressor.io/)
+
+- Google was used to search for ideas about how to use code, but any major help taken is stated in the block of code
+
+- To better understand the code and a lot of help was taken from
+
+    - [Django documents](https://docs.djangoproject.com/en/4.1/)
+    - [Stack Overflow](https://stackoverflow.com/)
+    - [Udemy](https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers) - Build Python Django Real Project: Django Web Development tutorial
+    - [Codemy](https://www.youtube.com/@Codemycom)
+    - [CarHouse Template](https://themeforest.net/item/car-house-car-dealer-template) - my template
 
 
+> ## Acknowledgement
 
+I want to express my gratitude to tutors from student tutor, and my mentor Ronan, for their continual support and advice. The Icetb-may-2022 slack group.
 
+### Thank You
 
-
+I want to express my gratitude to my husbant in particular for patience and support to finish the projects and the course.
 
 
 
