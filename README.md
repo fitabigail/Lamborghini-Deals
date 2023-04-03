@@ -11,14 +11,14 @@ GitHub repository is [here](https://github.com/fitabigail/Lamborghini-Deals)
 ## TABLE OF CONTENTS
 - [Aim of the website](#aim-of-the-website)
 - [User Experience/User Interface](#user-experience-or-user-interface)
-- [Flowchat](#flowchart-of-the-website)
+- [Flowchart](#flowchart)
 - [Design](#design)
 - [Features](#features)
 - [Database](#database)
 - [Testing](#testing)
 - [Validation](#validation)
 - [LightHouse](#lighthouse)
-- [Technology](#technology)
+- [Technologies Used](#technologies-used)
 - [Deployment](#deployment) 
 - [Credits](#credits)
 - [Acknowledgement](#acknowledgement)
@@ -27,12 +27,13 @@ GitHub repository is [here](https://github.com/fitabigail/Lamborghini-Deals)
 
 > ## Aim of the website
 ---
+</br>
 LamborghiniDeal is a website for selling second-hand Lamborghini. The user can quickly search for a specific car model, through the search bar on home page, or by more specific fields on the cars page. Also, the user can navigate on displayed cars, and choose a car post to have more details about. Once a car post is chosen the user can request more information by completing an inquiry form. To request more details about a car the user must be registered on the website. He can see his inquiries on the user dashboard, and update or delete the inquiry.  Options for selling a car are not available at the minute. But this would be a future feature where users can sell as well. </br></br>
 
 
 > ## User Experience or User Interface
 ---
-</br></br>
+</br>
 
 ### Agile
 The plan for this project was carried out using the Agile Methodology in Github. User Stories were created using the issues on the git hub. Each user story explicitly explains the purpose of the issues. Each user story is segmented into acceptance criteria and tasks. It was prioritised using GitHub labels with different colors. The labels are should have, could have and must have. Once the issues are created they are moved to the User Stories kanban board. The Kanban board has three main columns, To Do, In Progress and Done. Once you start working with the user story, you move it to the To Do column and when finished move it to the Done column. Following this pattern of work gives you a full-on idea about the progress of the project.</br></br>
@@ -141,6 +142,9 @@ The epics were created using the milistones on github. Each epic was created and
 
 > ## Flowchart
 ---
+
+</br>
+
 <details>
 
 ![Flowchart](./readme_img/flow-chart.png)
@@ -150,7 +154,7 @@ The epics were created using the milistones on github. Each epic was created and
 
 > ## Design
 ---
-</br></br>
+</br>
 
 The main purpose of the template choosed is to be build an website suitable for a car dealer easy to be remembered. LamorghiniDeal is built with the Bootstrap 5 framework (version: v4.0.0) has some jQuery plugin to give a nice look and functionality. The template use Google Font: **Open Sans** and **Playfair Display**, Font Awesome Icon to make the template. Red skin colors  **#dc141d** and **#f0151f**. You must have to keep all these dependencies if you wish the template work same to you as preview.
 <details>
@@ -176,6 +180,7 @@ Font Awesome
 
 > ## Features
 ---
+</br>
 The main objective of this project was to allow the users to have CRUD functionalities. The user can create an account where all his inquiries for individual car can be seen and not only they can update and delete any inquiry made by them. In addition the users have the option to search for the cars they are interested by main search bar and the search module which includes more searching options. The main pages of the website are Home, Cars, Services, Contact Us, Login, Singnup and registered user Dashboard. The admin pannel was customized with company logo.
 Template of website is a boostrap template  [Carhouse](https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers) customized for the website purpose.
 </br></br>
@@ -481,7 +486,7 @@ The website offers the basics for searching and buying a car. For future I think
 
 > ## Database
 ---
-</br></br>
+</br>
 
 * ### Data Model and Database Host
 </br>
@@ -675,7 +680,7 @@ There are four data models in this project. Car Model, EnquiryForm Model, Contac
 </br></br>
 
 ## **BUGS**
-</br></br>
+</br>
 ### Fixed bugs
 
 - The home page banner was not responsive I fixed the issue with .img-fluid bootstrap class, and on small screens  than 992px will display:none.
@@ -714,6 +719,7 @@ So far I have knwoldge of this bugs:
 
 > ## Validation
 ---
+</br>
 
 <details>
 </br>
@@ -835,8 +841,7 @@ Python has  lines mark as too long  white space trail but because I was under ti
 > ## LightHouse
 ---
 
-
-</br></br>
+</br>
 The lighthouse score had come a bit low, it is pointing out of the image formats, that have not been set for the web, about the bootstraps cdn, compression and reduce amount of the unneccesary code, since this was one of the last steps done in the project I have not had the time for look for guidance on this matter, but it will be address in the future.</br></br>
 <details>
 
@@ -876,7 +881,7 @@ The lighthouse score had come a bit low, it is pointing out of the image formats
 
 > ## Technologies Used
 
-</br></br>
+</br>
 <details>
 
 ### Languages
@@ -928,7 +933,7 @@ Documentation for [here](https://docs.djangoproject.com/en/4.1/intro/)
 
 > ## Deployment
 ---
-</br></br>
+</br>
 This project was use Heroku service for deployment. The folowing steps have to be done:
 </br></br>
 <details>
@@ -973,7 +978,9 @@ This project was use Heroku service for deployment. The folowing steps have to b
 
 The idea of a car dealer website came from my littel boy which loves Lamborghini cars. On my research I found this tutorial: [Build Python Django Real Project](https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers) on [Udemy](https://www.udemy.com/) and I decide to follow and adapt it to my needs. The template is great, but now I think I worked more than if I was build my self. Now I understand the work of tutors who must dig  on our code to find the errors.
 
-- The images for this project was taken from [Pexels](https://www.pexels.com/) for teamIused the template images.
+- The images for this project was taken from [Pexels](https://www.pexels.com/) for team pictures I used the template images.
+
+- The text for banner I used from the theme template, and all the rest I have research on simlar cars dealers websites. 
 
 - The Favicon for this project was made from [Favicon](https://favicon.io/favicon-generator/)
 
