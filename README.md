@@ -460,7 +460,10 @@ The user can be sent messages to the website owner by filling out a Contact form
 ![Contact Us](./readme_img/contact-us-mob.png)
 ![Contact Us Success](./readme_img/contact-fill-success.png)
 </details>
-</br>
+</br></br>
+
+
+</br></br>
 
 * ## Future Features
 
@@ -684,10 +687,10 @@ There are four data models in this project. Car Model, EnquiryForm Model, Contac
 
 So far I have knwoldge of this bugs:
 - The search fields shows duplicate options.
-- The contact form it is not working properly. If the same code is written again and refresh the page the contact form is working properly an a contact form is registred on contact model on admin page. I did research, ask student support but at this stage I can  not figured out what can cause this issue.
+- The contact form it is not working properly. If the same code is written again and refresh the page the contact form is working properly an a contact form is registred on contact model on admin page. I did research, asked student support but at this stage I can  not figured out what can cause this issue. 
 - Messages should fade out but their are not removed until the page refresh. Was worked at begain but not anymore.
 - The template of page 404 is on top of django. 
-
+ 
 
 </br></br>
 
