@@ -28,7 +28,7 @@ GitHub repository is [here](https://github.com/fitabigail/Lamborghini-Deals)
 > ## Aim of the website
 ---
 </br>
-LamborghiniDeal is a website for selling second-hand Lamborghini. The user can quickly search for a specific car model, through the search bar on home page, or by more specific fields on the cars page. Also, the user can navigate on displayed cars, and choose a car post to have more details about. Once a car post is chosen the user can request more information by completing an inquiry form. To request more details about a car the user must be registered on the website. He can see his inquiries on the user dashboard, and update or delete the inquiry.  Options for selling a car are not available at the minute. But this would be a future feature where users can sell as well. </br></br>
+LamborghiniDeal is a website for selling second-hand Lamborghini. The user can quickly search for a specific car model, through the search bar on the home page, or by more specific fields on the cars page. Also, the user can navigate on displayed cars, and choose a car post to have more details about. Once a car post is chosen the user can request more information by completing an inquiry form. To request more details about a car the user must be registered on the website. He can see his inquiries on the user dashboard, and update or delete the inquiry.  Options for selling a car are not available at the minute. But this would be a future feature where users can sell as well. </br></br>
 
 
 > ## User Experience or User Interface
@@ -36,24 +36,24 @@ LamborghiniDeal is a website for selling second-hand Lamborghini. The user can q
 </br>
 
 ### Agile
-The plan for this project was carried out using the Agile Methodology in Github. User Stories were created using the issues on the git hub. Each user story explicitly explains the purpose of the issues. Each user story is segmented into acceptance criteria and tasks. It was prioritised using GitHub labels with different colors. The labels are should have, could have and must have. Once the issues are created they are moved to the User Stories kanban board. The Kanban board has three main columns, To Do, In Progress and Done. Once you start working with the user story, you move it to the To Do column and when finished move it to the Done column. Following this pattern of work gives you a full-on idea about the progress of the project.</br></br>
+The plan for this project was carried out using the Agile Methodology in Github. User Stories were created using the issues on the git hub. Each user story explicitly explains the purpose of the issues. Each user story is segmented into acceptance criteria and tasks. It was prioritized using GitHub labels with different colors. The labels are should have, could have, and must have. Once the issues are created they are moved to the User Stories Kanban board. The Kanban board has three main columns, To Do, In Progress, and Done. Once you start working with the user story, you move it to the To Do column and when finished move it to the Done column. Following this pattern of work gives you a full-on idea about the progress of the project.</br></br>
 
 
 
 ### Epic
 </br></br>
-The epics were created using the milistones on github. Each epic was created and related issues were added to it. There are four epics - 
+The epics were created using the Milistones on Git Hub. Each epic was created and related issues were added to it. There are four epics - 
 
-- EPIC : CRUD Functionalities
+- EPIC: CRUD Functionalities
 
     - USER STORY: Inquiry Add [[#13](https://github.com/fitabigail/Lamborghini-Deals/issues/13)]
-    - USER STORY: View Inquiried [[#8](https://github.com/fitabigail/Lamborghini-Deals/issues/8)]
+    - USER STORY: View Inquiries [[#8](https://github.com/fitabigail/Lamborghini-Deals/issues/8)]
     - USER STORY: Update my Inquiry[[#10](https://github.com/fitabigail/Lamborghini-Deals/issues/10)]
     - USER STORY: Delete my Inquiry [[#12](https://github.com/fitabigail/Lamborghini-Deals/issues/12)]
     
     
 
-- EPIC : Register & Login and Logout
+- EPIC: Register & Login and Logout
 
     - USER STORY: Sign up [[#15](https://github.com/fitabigail/Lamborghini-Deals/issues/15)]
     - USER STORY: Register Account [[#4](https://github.com/fitabigail/Lamborghini-Deals/issues/4)]
@@ -99,7 +99,7 @@ The epics were created using the milistones on github. Each epic was created and
 
     - As a **Site User**, I can sign up for an account so that **I can request details about a car and like a post**. (must have / complete) [[#15](https://github.com/fitabigail/Lamborghini-Deals/issues/15)]
 
-- Add Contact us Form
+- Add Contact Us Form
     - As a **Site User/Admin**, I can get in touch with the site owner so that **I can complete the contact form to send a message**.(must have / complete) [[#14](https://github.com/fitabigail/Lamborghini-Deals/issues/14)]
 
 - Add new inquiry
@@ -111,11 +111,11 @@ The epics were created using the milistones on github. Each epic was created and
 - Update Inquiry 
     - As a **Site User**, I can edit my inquiry on my dashboard so that **I can update the inquiry**. (must have / complete) [[#10](https://github.com/fitabigail/Lamborghini-Deals/issues/10)]
 
-- View Inquiery
+- View Inquiry
     - As a **Site User/Admin**, I can view my inquiry on my dashboard so that **I can read, update, or delete the inquiry**.(must have / complete) [[#9](https://github.com/fitabigail/Lamborghini-Deals/issues/9)]
 
  - View request message
-    - As a **Site User / Admin** I can view request messages on an individual post so that **I can read the request**.(duplicate / complete) [[#8](https://github.com/fitabigail/Lamborghini-Deals/issues/8)]
+    - As a **Site User / Admin** I can view request messages on an individual post so that **I can read the request**.(duplicate/complete) [[#8](https://github.com/fitabigail/Lamborghini-Deals/issues/8)]
 
 - View likes
     - As a **Site User / Admin** I can view the number of likes on each post so that **I can see which is the most popular or viral**.(should have / complete) [[#7](https://github.com/fitabigail/Lamborghini-Deals/issues/7)]
@@ -127,14 +127,14 @@ The epics were created using the milistones on github. Each epic was created and
 - View post list
     - As a **Site User** I can view a list of posts so that **I can select one to read**.(must have / complete) [[#5](https://github.com/fitabigail/Lamborghini-Deals/issues/5)]
 
-- Account registration
+- Account Registration
     - As a **Admin** I can **see register account** so that **I can delete if I want**.(must have / complete) [[#7](https://github.com/fitabigail/Lamborghini-Deals/issues/7)]
     
 - Manage posts
 
     - As a **Site Admin** I can create, read, update, and delete posts so that **I can manage my site content**. (must have / complete) [[#3](https://github.com/fitabigail/Lamborghini-Deals/issues/3)]
 
-- Add Team mebmber
+- Add Team member
     - As an **Admin** I can create, update, and delete a team member's profile so that the user **can see the team member profile online**.(must have / complete) [[#1](https://github.com/fitabigail/Lamborghini-Deals/issues/1)]  
 </details>      
    
@@ -156,7 +156,7 @@ The epics were created using the milistones on github. Each epic was created and
 ---
 </br>
 
-The main purpose of the template choosed is to be build an website suitable for a car dealer easy to be remembered. LamorghiniDeal is built with the Bootstrap 5 framework (version: v4.0.0) has some jQuery plugin to give a nice look and functionality. The template use Google Font: **Open Sans** and **Playfair Display**, Font Awesome Icon to make the template. Red skin colors  **#dc141d** and **#f0151f**. You must have to keep all these dependencies if you wish the template work same to you as preview.
+The main purpose of the template chosen is to build a website suitable for a car dealer easy to be remembered. LamorghiniDeal is built with the Bootstrap 5 framework (version: v4.0.0) and has some jQuery plugins to give a nice look and functionality. The template uses Google Font: **Open Sans** and **Playfair Display**, Font Awesome Icon to make the template. Red skin colors  **#dc141d** and **#f0151f**. You must have to keep all these dependencies if you wish the template to work the same for you as a preview.
 <details>
 Animate CSS
 Google Fonts
@@ -181,14 +181,14 @@ Font Awesome
 > ## Features
 ---
 </br>
-The main objective of this project was to allow the users to have CRUD functionalities. The user can create an account where all his inquiries for individual car can be seen and not only they can update and delete any inquiry made by them. In addition the users have the option to search for the cars they are interested by main search bar and the search module which includes more searching options. The main pages of the website are Home, Cars, Services, Contact Us, Login, Singnup and registered user Dashboard. The admin pannel was customized with company logo.
-Template of website is a boostrap template  [Carhouse](https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers) customized for the website purpose.
+The main objective of this project was to allow the users to have CRUD functionalities. The user can create an account where all his inquiries for individual cars can be seen and not only they can update and delete any inquiry made by them. In addition, the users have the option to search for the cars they are interested in in the main search bar and the search module which includes more search options. The main pages of the website are Home, Cars, Services, Contact Us, Login, Signup, and registered user Dashboard. The admin panel was customized with the company logo.
+The template of the website is a bootstrap template  [Carhouse](https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers) customized for the website purpose.
 </br></br>
 <details>
 </br></br>
 
 * ## Top bar
-The top bar includes contact information and links to Login / Sing Up when the user is not logged in and Dashboard / Logout. The topbar on big screens desktops and laptops on scrolling down the page are hidden, and for smaller devices is not displayed. The top bar is repeating on all the pages.
+The top bar includes contact information and links to Login / Sing Up when the user is not logged in and Dashboard / Logout. The top bar on big screens desktops and laptops on scrolling down the page are hidden, and for smaller devices is not displayed. The top bar is repeating on all the pages.
 
 <details>
 
@@ -230,7 +230,7 @@ The website Logo is customized with the name of the website "LamborghiniDeals" a
 <li>
 
 ### Search
- User can search from a particular car model straigth from the search icon from navbar. Effect achived with javascript.</li>
+ Users can search for a particular car model straight from the search icon on the navbar. Effect achieved with javascript.</li>
 
 <details>
 
@@ -256,8 +256,8 @@ On the home page, the banner section has a three-sliding car images carousel wit
 
 <li>
 
-### Latests Cars
-The latest car section shows the cars on slick slide staiting with the latest added. From here the user can easy to click on the car he like and see more details about it.</li>
+### Latest Cars
+The latest car section shows the cars on a slick slide starting with the latest added. From here the user can easy to click on the car he likes and see more details about it.</li>
 <details>
 
 ![Latests Cars](./readme_img/Slick-slide.png)
@@ -267,7 +267,7 @@ The latest car section shows the cars on slick slide staiting with the latest ad
 <li>
 
 ### Team Executive
-The pictures of the team are displayed with social links for contact, name and position heald on the company.
+The pictures of the team are displayed with social links for contact, name, and position held by the company.
 <details>
 
 ![Team](./readme_img/team.png)
@@ -291,7 +291,7 @@ In this section, the user can ask for more information by accessing the contact 
 <li>
 
 ### Footer
-The footer is simple and include social media links.
+The footer is simple and includes social media links.
 <details>
 
 ![Footer](./readme_img/footer.png)
@@ -334,7 +334,7 @@ The cars are displayed four by page and paginated. By clicking an individual car
 
 ### Search Car List
 
-The user can use the car fillter from search fileds by model, location, body style, transmision and price. From Search list the user is redirected to Search Car page. On Search page the user can redifine his car search options.
+The user can use the car filter from search fields by model, location, body style, transmission, and price. From the Search list, the user is redirected to the Search Car page. On the Search page, the user can redefine his car search options.
 <details>
 
 ![Car List Search](./readme_img/car-list-search.png)
@@ -409,7 +409,7 @@ On the dashboard page, the registered user has the chance to see their inquiries
 </li>
 <li>
 
-### Unregistred User
+### Unregistered User
 <details>
 
 ![Dashboard](./readme_img/unregistred-dashboard.png)
@@ -418,7 +418,7 @@ On the dashboard page, the registered user has the chance to see their inquiries
 </ol>
 </br></br>
 
-* ## Sing up and Log In Page
+* ## Sing up and Log In to Page
 <ol>
 <li>
 
@@ -473,13 +473,13 @@ The user can be sent messages to the website owner by filling out a Contact form
 
 * ## Future Features
 
-The website offers the basics for searching and buying a car. For future I think to add more of then to gain a better  place on the market. The futures what I want to be added are listed below:
+The website offers the basics for searching and buying a car. In the future, I think to add more of them to gain a better  place on the market. The futures that I want to be added are listed below:
 
-* Create a option to for a registred user to sell a car trough website;
-* Create a forgot pasword option for users;
-* A live chat facilitating user interaction on real time;
-* A label to show which car are reserved or sold;
-* A car renting option for special ocassions;
+* Create an option for a registered user to sell a car through website;
+* Create a forgot password option for users;
+* A live chat facilitating user interaction in real-time;
+* A label to show which cars are reserved or sold;
+* A car renting option for special occasions;
 * A user profile.
 </details>
 </br></br>
@@ -490,7 +490,7 @@ The website offers the basics for searching and buying a car. For future I think
 
 * ### Data Model and Database Host
 </br>
-There are four data models in this project. Car Model, EnquiryForm Model, Contact Model and a Team Model. Team model and Car model has a one-to-many relationship, as well Car model has OneToMany one-to-many relationship with EnquiryForm model.
+There are four data models in this project. Car Model, EnquiryForm Model, Contact Model, and a Team Model. The team model and the Car model have a one-to-many relationship, as well Car model has OneToMany one-to-many relationship with the EnquiryForm model.
 </br></br>
 <details>
 <ol>
@@ -683,19 +683,19 @@ There are four data models in this project. Car Model, EnquiryForm Model, Contac
 </br>
 ### Fixed bugs
 
-- The home page banner was not responsive I fixed the issue with .img-fluid bootstrap class, and on small screens  than 992px will display:none.
-- The server was give me error 500 as fonts was not supported on static folder. So I delete the fonts folder, and I linked a cdn link for Fontawsome on the head.
-- The table on dashboard was not show he numbers of inquiries I fixed by adding css style for content counter.
-- The table was not responsive I fixed with .table-responsive bootstrap class.
+- The home page banner was not responsive I fixed the issue with the .img-fluid bootstrap class, and on small screens,  992px will display: none.
+- The server was give me error 500 as fonts were not supported on the static folder. So I delete the fonts folder, and I linked a CDN link for Fontawsome on the head.
+- The table on the dashboard was not showing the number of inquiries I fixed this by adding css style for the content counter.
+- The table was not responsive I fixed it with the .table-responsive bootstrap class.
 
 </br></br>
 ### Not Fixed bugs
 
-So far I have knwoldge of this bugs:
-- The search fields shows duplicate options.
-- The contact form it is not working properly. If the same code is written again and refresh the page the contact form is working properly an a contact form is registred on contact model on admin page. I did research, asked student support but at this stage I can  not figured out what can cause this issue. 
-- Messages should fade out but their are not removed until the page refresh. Was worked at begain but not anymore.
-- The template of page 404 is on top of django. 
+So far I have knowledge of these bugs:
+- The search fields show duplicate options.
+- The contact form is not working properly. If the same code is written again and refreshes the page the contact form is working properly and a contact form is registered on the contact model on the admin page. I did research and asked for student support but at this stage, I can  not figure out what can cause this issue. 
+- Messages should fade out but they are not removed until the page refresh. Was worked at begain but not anymore.
+- The template of page 404 is on top of Django. 
  
 
 </br></br>
@@ -761,7 +761,7 @@ Has 2 Errors :
 
 ### Login
 
-Has 1 Errors : 
+Has 1 Error: 
 
 ![Login html validation](./readme_img/Login-validation.png)
 
@@ -775,7 +775,7 @@ Has 2 Errors :
 
 
 
-### Update inquiery
+### Update inquiry
 
 Has 2 Errors : 
 
@@ -791,7 +791,7 @@ Has 19 Errors :
 
 
 
-### Update inquiery
+### Update inquiry
 
 Has 2 Errors : 
 
@@ -813,14 +813,14 @@ Has 2 Errors:
 
 > Python
 
-Python has  lines mark as too long  white space trail but because I was under time pressure I left to fix them in the future.
+Python has  lines marked as too long  white space trail but because I was under time pressure I left to fix them in the future.
 
 * Laborghini_deals
 
 
 ![Lamborghini_deals validation](./readme_img/lamborghini_deals-python.png)
 
-* Laborghini
+* Lamborghini
 
 
 ![Lamborghini validation](./readme_img/lamborghini-project-phyton.png)
@@ -842,7 +842,7 @@ Python has  lines mark as too long  white space trail but because I was under ti
 ---
 
 </br>
-The lighthouse score had come a bit low, it is pointing out of the image formats, that have not been set for the web, about the bootstraps cdn, compression and reduce amount of the unneccesary code, since this was one of the last steps done in the project I have not had the time for look for guidance on this matter, but it will be address in the future.</br></br>
+The lighthouse score had come a bit low, it is pointing out of the image formats, that have not been set for the web, the bootstraps cdn, compression and reducing amount of the unnecessary code, since this was one of the last steps done in the project I have not had the time for look for guidance on this matter, but it will be address in the future.</br></br>
 <details>
 
 ### Home
@@ -934,17 +934,17 @@ Documentation for [here](https://docs.djangoproject.com/en/4.1/intro/)
 > ## Deployment
 ---
 </br>
-This project was use Heroku service for deployment. The folowing steps have to be done:
+This project used the Heroku service for deployment. The following steps have to be done:
 </br></br>
 <details>
 <ol>
 <li>Log in Github.</li>
 <li>Open the repo to deploy.</li>
 <li>Log in Heroku.</li>
-<li>Click in the "New" button in the top right.</li>
+<li>Click on the "New" button in the top right.</li>
 <li>Select "Create New App"</li>
 <li>Give a name to the App and choose a region.</li>
-<li>Click in "Create App" button.</li>
+<li>Click on the "Create App" button.</li>
 <li>Click in Settings.</li>
 <li>Click in Reveal Config.</li>
 <li>Add Vars Config (keys):</li>
@@ -954,9 +954,9 @@ This project was use Heroku service for deployment. The folowing steps have to b
 <li>PORT 8000</li></ol>
 <li>Django (Framework)</li>
 <ol>
-<li>Go to Deploy in the nav bar. In Deploment Method, select GitHub/Connect to GitHub.</li>
-<li>In Connect to GitHub, write the repository name and click in search.</li>
-<li>Once the route for the repo appears under the search, click in "Connect" button.</li>
+<li>Go to Deploy in the nav bar. In Deployment Method, select GitHub/Connect to GitHub.</li>
+<li>In Connect to GitHub, write the repository name and click on search.</li>
+<li>Once the route for the repo appears under the search, click on the "Connect" button.</li>
 <li>The deployment can be Manual or Automatic, select the one of your preference. Automatic has the advantage of updating your deployed site as you push the commit in GitHub.</li>
 <li>Verify that "Branch to deploy" is master/main.</li>
 <li>Click Deploy.</li>
@@ -976,15 +976,15 @@ This project was use Heroku service for deployment. The folowing steps have to b
 
 > ## Credits
 
-The idea of a car dealer website came from my littel boy which loves Lamborghini cars. On my research I found this tutorial: [Build Python Django Real Project](https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers) on [Udemy](https://www.udemy.com/) and I decide to follow and adapt it to my needs. The template is great, but now I think I worked more than if I was build my self. Now I understand the work of tutors who must dig  on our code to find the errors.
+The idea of a car dealer website came from my little boy who loves Lamborghini cars. In my research, I found this tutorial: [Build Python Django Real Project](https://www.udemy.com/course/python-django-real-project-for-freshers-freelancers) on [Udemy](https://www.udemy.com/) and I decide to follow and adapt it to my needs. The template is great, but now I think I worked more than if I was building myself. Now I understand the work of tutors who must dig  into our code to find the errors.
 
-- The images for this project was taken from [Pexels](https://www.pexels.com/) for team pictures I used the template images.
+- The images for this project were taken from [Pexels](https://www.pexels.com/) for team pictures I used the template images.
 
-- The text for banner I used from the theme template, and all the rest I have research on simlar cars dealers websites. 
+- The text for the banner I used from the theme template and all the rest I have researched on similar car dealers' websites. 
 
 - The Favicon for this project was made from [Favicon](https://favicon.io/favicon-generator/)
 
-- The Icons for this project was taken from [Font Awesome](https://fontawesome.com/)
+- The Icons for this project were taken from [Font Awesome](https://fontawesome.com/)
 
 - The Font for this project was taken from [Google Fonts](https://fonts.google.com/)
 
@@ -1003,11 +1003,11 @@ The idea of a car dealer website came from my littel boy which loves Lamborghini
 
 > ## Acknowledgement
 
-I want to express my gratitude to tutors from student tutor, and my mentor Ronan, for their continual support and advice. The Icetb-may-2022 slack group.
+I want to express my gratitude to tutors from student tutors, and my mentor Ronan, for their continual support and advice. The Icetb-may-2022 slack group.
 
 ### Thank You
 
-I want to express my gratitude to my husbant in particular for patience and support to finish the projects.
+I want to express my gratitude to my husband in particular for his patience and support to finish the projects.
 
 
 
